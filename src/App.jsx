@@ -31,7 +31,7 @@ const App = () => {
           onChange={handleFileUpload}
         />
         <button onClick={handleToggleClick} style={{ marginLeft: "10px" }}>
-          {showPdf ? "Hide PDF" : "Show PDF"}
+          {showPdf ? "Hide PDFs" : "Show PDFs"}
         </button>
       </div>
       {showPdf && pdfUrl && (
