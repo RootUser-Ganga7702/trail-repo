@@ -33,8 +33,9 @@ export default function PdfViewerComponent({ document }) {
       ref={containerRef}
       style={{
         position: "fixed",
-        top: 0,
-        left: 0,
+        margin:"40px",
+        top: 2,
+        left: 2,
         width: "100%",
         height: "100vh",
         overflow: "hidden",
